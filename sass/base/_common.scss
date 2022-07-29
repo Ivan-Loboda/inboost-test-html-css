@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* * :hover,
+:focus {
+  outline: none;
+} */
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul,
+ol [class] {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+}
+
+// h2,
+// h3 {
+//   color: var(--primary-heading-color);
+// }

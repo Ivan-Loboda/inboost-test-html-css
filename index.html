@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INBOOST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;0,600;1,400&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <button class="btn_back">
+            <svg class="header-arrow_left" width="20" height="20">
+                <use href="./img/sprite.svg#icon-arrow-left"></use>
+            </svg>
+            <span>Назад</span>
+        </button>
+        <p class="header_text"> Перейти у бот...</p>
+        <div class="header_button_wrapper">
+            <button class="button">Тест</button>
+            <button class="button">Опублікувати в боті</button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- MAIN CONTAINER -->
+
+        <section class="main_content">
+            <div class="main_content-card">
+                <div class="main_content-svg_wrapper">
+                    <svg class="main_content-image" width="24" height="24">
+                        <use href="./img/sprite.svg#icon-delete"></use>
+                    </svg>
+                    <div class="main_content-svg_inner_wrapper">
+                        <svg class="main_content-image" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-create"></use>
+                        </svg>
+                        <svg class="main_content-image" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-copy"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="main_content-card_wrapper">
+                    <div class="main_content-text_wrapper">
+                        <svg class="main_content-image burger_image" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-menu"></use>
+                        </svg>
+                        <p class="main_content-text">Головне меню</p>
+                    </div>
+                    <textarea placeholder="Напишіть ваше повідомлення" class="main_content-input"></textarea>
+                </div>
+                <div class="main_content-button_list-wrapper">
+                    <ul class="main_content-button_list">
+                        <li class="main_content-button_list_item"><button class="button main_content-button">Переглянути
+                                баланс і отримати бонуси</button></li>
+                        <li class="main_content-button_list_item"><button class="button main_content-button">Поділитись
+                                ботом😊 </button></li>
+                        <li class="main_content-button_list_item"><button class="button main_content-button">Доступні
+                                послуги</button></li>
+                    </ul>
+
+                    <ul class="main_content-button_list-alt">
+                        <li class="main_content-button_list_item-alt">
+                            <svg class="main_content-button_list-alt_svg" width="33" height="6">
+                                <use href="./img/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                            <span class="main_content-card_text_wrapper">
+                                <svg width="12" height="12">
+                                    <use href="./img/sprite.svg#icon-plus-icon"></use>
+                                </svg>
+                                <p>Наступний крок</p>
+                            </span>
+                        </li>
+                        <li class="main_content-button_list_item-alt">
+                            <svg class="main_content-button_list-alt_svg" width="33" height="6">
+                                <use href="./img/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                            <span class="main_content-card_text_wrapper">
+                                <svg width="12" height="12">
+                                    <use href="./img/sprite.svg#icon-plus-icon"></use>
+                                </svg>
+                                <p>Наступний крок</p>
+                            </span>
+                        </li>
+                        <li class="main_content-button_list_item-alt">
+                            <svg class="main_content-button_list-alt_svg" width="33" height="6">
+                                <use href="./img/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                            <span class="main_content-card_text_wrapper">
+                                <svg width="12" height="12">
+                                    <use href="./img/sprite.svg#icon-plus-icon"></use>
+                                </svg>
+                                <p>Наступний крок</p>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        <!-- MAIN MENU -->
+
+            <div class="main_menu">
+                <div class="main_menu-languages_wrapper">
+                    <ul class="main_menu-languages_list">
+                        <li class="main_menu-languages_list_item"><button
+                                class="button main_menu-languages_list_item-button">UA</button></li>
+                        <li class="main_menu-languages_list_item"><button
+                                class="button main_menu-languages_list_item-button">RU</button></li>
+                        <li class="main_menu-languages_list_item"><button
+                                class="button main_menu-languages_list_item-button">ENG</button></li>
+                    </ul>
+                    <svg width="24" height="24" class="main_menu-languages_list-svg">
+                        <use href="./img/sprite.svg#icon-language"></use>
+                    </svg>
+                </div>
+                <hr class="main_menu-separator">
+
+                <div class="main_content-text_wrapper">
+                    <svg class="main_content-image burger_image" width="24" height="24">
+                        <use href="./img/sprite.svg#icon-menu"></use>
+                    </svg>
+                    <p class="main_content-text">Головне меню</p>
+                </div>
+                <p class="main_menu-text">Текст і кнопки основних функцій, які постійно відображатимуться при відкритті
+                    чату з ботом</p>
+                <hr class="main_menu-separator">
+
+                <div class="main_menu-messge_container">
+                    <div class="main_menu-messge_wrapper">
+                        <p class="main_menu-subtitle">Повідомлення для клієнта</p>
+                        <svg class="main_content-image" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-del"></use>
+                        </svg>
+                    </div>
+                    <div class="main_menu-text_wrapper">
+                        <p class="main_menu-text_second">Привіт😊 Щоб перейти до головного меню бота, натисніть кнопку
+                            внизу
+                            “📱Поділитися номером”</p>
+                    </div>
+                </div>
+                <hr class="main_menu-separator">
+
+            </div>
+        </section>
+
+<!-- SIDEBAR -->
+
+        <div class="sidebar">
+            <svg class="logo" width="45" height="30">
+                <use href="./img/sprite.svg#icon-logo"></use>
+            </svg>
+
+            <ul class="sidebar_list">
+                <li class="sidebar_list-item">
+                    <svg class="sidebar_list-svg" width="30" height="30">
+                        <use href="../img/sprite.svg#icon-home"></use>
+                    </svg>
+                </li>
+                <li class="sidebar_list-item">
+                    <svg class="sidebar_list-svg" width="30" height="30">
+                        <use href="../img/sprite.svg#icon-robot"></use>
+                    </svg>
+                </li>
+                <li class="sidebar_list-item">
+                    <svg class="sidebar_list-svg" width="30" height="30">
+                        <use href="../img/sprite.svg#icon-contact_mail"></use>
+                    </svg>
+                </li>
+                <li class="sidebar_list-item">
+                    <svg class="sidebar_list-svg" width="30" height="30">
+                        <use href="./img/sprite.svg#icon-people"></use>
+                    </svg>
+                </li>
+                <li class="sidebar_list-item">
+                    <svg class="sidebar_list-svg" width="30" height="30">
+                        <use href="./img/sprite.svg#icon-place"></use>
+                    </svg>
+                </li>
+                <li class="sidebar_list-item">
+                    <svg class="sidebar_list-svg" width="30" height="30">
+                        <use href="./img/sprite.svg#icon-settings"></use>
+                    </svg>
+                </li>
+            </ul>
+
+
+            <svg class="sidebar_image-profile" width="30" height="30">
+                <use href="./img/sprite.svg#icon-account_circle"></use>
+            </svg>
+
+        </div>
+
+    </main>
+</body>
+
+</html>

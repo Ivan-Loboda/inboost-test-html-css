@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+    margin: 0 auto;
+    padding-left: 92px;
+    padding-right: 20px;
+    height: 51px;
+    background-color: #fff;
+    // width: 1200px;
+}
+
+.header_text {
+    color: #6C757D;
+    margin-right: 309px;
+}
+
+.header_button_wrapper>.button {
+    padding: 6px 10px;
+}
+
+.header_button_wrapper>.button:not(:last-child) {
+    margin-right: 24px;
+}
+
+// .header-arrow_left {
+//     background-color: transparent;
+// }
